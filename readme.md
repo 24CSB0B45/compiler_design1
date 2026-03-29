@@ -75,7 +75,8 @@ Compile → Detect → Fix → Test → Verify → Repeat
 
 * 🤖 **agent.py**
   Core LLM-powered agent that:
-
+  
+  * Orchestrates all modules
   * Detects issues
   * Decides fixes
   * Drives the detect → fix → verify loop
@@ -83,7 +84,6 @@ Compile → Detect → Fix → Test → Verify → Repeat
 * 🌐 **app.py**
   Flask application that:
 
-  * Orchestrates all modules
   * Provides a web interface
   * Connects frontend with backend logic
 
