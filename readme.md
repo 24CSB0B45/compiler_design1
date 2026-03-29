@@ -75,7 +75,7 @@ Compile → Detect → Fix → Test → Verify → Repeat
 
 * 🤖 **agent.py**
   Core LLM-powered agent that:
-  
+
   * Orchestrates all modules
   * Detects issues
   * Decides fixes
@@ -137,15 +137,7 @@ venv\Scripts\activate
 
 ---
 
-### 4️⃣ Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-### 5️⃣ Set Gemini API Key 🔑
+### 4️⃣ Set Gemini API Key 🔑
 
 ```bash
 export GEMINI_API_KEY="your api key"
@@ -155,7 +147,7 @@ export GEMINI_API_KEY="your api key"
 
 ---
 
-### 6️⃣ Run the Application 🚀
+### 5️⃣ Run the Application 🚀
 
 ```bash
 python app.py
@@ -163,12 +155,12 @@ python app.py
 
 ---
 
-### 7️⃣ Open in Browser 🌐
+### 6️⃣ Open in Browser 🌐
 
 Go to:
 
 ```
-http://127.0.0.1:5000
+http://127.0.0.1:5001
 ```
 
 ---
