@@ -137,8 +137,10 @@ venv\Scripts\activate
 
 ---
 
-### 4️⃣ Set Gemini API Key 🔑
-
+### 4️⃣ Intall dependencies & Set Gemini API Key 🔑
+```bash
+pip install google-genai flask 
+```
 ```bash
 export GEMINI_API_KEY="your api key"
 ```
